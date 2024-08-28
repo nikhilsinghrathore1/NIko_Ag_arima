@@ -1,0 +1,61 @@
+@font-face {
+  font-family: font1;
+  src: url("../rocgrotesk-condensedbold-aa64a1f0.ttf");
+}
+@font-face {
+  font-family: font2;
+  src: url("../public/timesnow-semilight-7d950ea8.ttf");
+}
+@font-face {
+  font-family: font3;
+  src: url("../public/Fontspring-DEMO-rocgroteskcond-extrabold.otf");
+}
+
+.f1{
+  font-family: font1;
+}
+.f2{
+  font-family: font2;
+}
+.f3{
+  font-family: font3;
+}
+
+
+.box1::before{
+  position: absolute;
+  content: "";
+  width: 102%;
+  left: 1px;
+  height: 50%;
+  background-color: #fff;
+  bottom: -24px;
+  z-index: 100;
+  border-top: 1px solid black;
+  transform: rotate(-6deg);
+}
+
+.box2::before{
+  position: absolute;
+  content: "";
+  width: 101%;
+  left: -8px;
+  height: 50%;
+  background-color: #fff;
+  bottom: -50px;
+  z-index: 100;
+  border-top: 1px solid black;
+  transform: rotate(9deg);
+}
+.box3::before{
+  position: absolute;
+  content: "";
+  width: 101%;
+  left: -px;
+  height: 80%;
+  background-color: #fff;
+  top: -70px;
+  z-index: 100;
+  border-bottom: 1px solid black;
+  transform: rotate(9deg);
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import FifthPage from '../components/FifthPage'
+import Footer from '../components/Footer'
 import Fourth from '../components/Fourth'
 import Hero from '../components/Hero'
 import SecondPage from '../components/SecondPage'
@@ -13,6 +14,7 @@ const Home = () => {
     <ThirdPage/>
     <Fourth/>
     <FifthPage/>
+    <Footer/>
     </div>
   )
 }

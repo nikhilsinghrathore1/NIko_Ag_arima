@@ -2,7 +2,7 @@ import React from 'react'
 
 const FifthPage = () => {
   return (
-    <div className='w-full h-[160vh] bg-[#1EC5FC] px-1 pt-10 '>
+    <div className='w-full h-[175vh] bg-[#1EC5FC] overflow-hidden px-1 pt-10 '>
       {/* this is the first blue area huge text */}
        <div className='text-[4.79rem] px-[3px] tracking-tight leading-[3.6rem] f1 uppercase'>
                               <p className=' overflow-hidden'>We're</p>
@@ -36,8 +36,8 @@ const FifthPage = () => {
                <div className='text-[4.79rem] px-[3px] tracking-tight leading-[3.6rem] f1 uppercase'>
                               <p className=' overflow-hidden'>from</p>
                               <p >strategy </p>
-                              <p className='pl-20'>to Design</p>
-                              <p className='pl-24'>and</p>
+                              <p className='pl-[6.7rem]'>to Design</p>
+                              <p className='pl-[7.7rem]'>and</p>
                               <p>Development</p>
                </div>
     </div>

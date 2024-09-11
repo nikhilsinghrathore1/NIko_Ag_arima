@@ -1,18 +1,24 @@
 import React from 'react'
 
 const HeroMain = () => {
+
+
+// the responsive design of the landing page in complete for the slight bigger screens 
+
+
   return (
-    <div className=' w-full h-[108vh] overflow-hidden pt-[117px] px-[5px]'>
+    <div className=' w-full h-[108vh] xs:h-[86.5vh]  overflow-hidden pt-[117px] px-[5px]'>
                {/* container for the main big text */}
-               <div className='text-[4.79rem] px-[3px] tracking-tight leading-[3.6rem] f1 uppercase'>
+               <div className='text-[4.79rem] xs:text-[5rem] px-[3px] tracking-tight leading-[3.6rem] xs:leading-[3.8rem] f1 uppercase'>
                               <p className=' overflow-hidden'>A committed,</p>
                               <p className='pl-[2px]'>creative and </p>
-                              <p className='pl-[17%]'>Agile Team</p>
+                              <p className='pl-[17%] xs:pl-[16.7%]'>Agile Team</p>
                </div>
 
 
                {/*this is first  the outer div for the locomotive images */}
-               <div className='box1 w-[53%] float-end inline -top-3 h-[32%] p-[2px] relative overflow-hidden -skew-y-2 -skew-x-1'>
+
+               <div className='box1 w-[53%] float-end inline -top-3 h-[32%] xs:h-[29%] p-[2px] relative overflow-hidden -skew-y-2 -skew-x-1'>
                {/* this is the inner div that contains the images */}
                <div className=' w-full h-full   border-[1px] border-black/50 overflow-hidden'>
                               <img className='w-full h-full object-cover scale-125 -rotate-[15deg] object-top' src="https://images.prismic.io/localstudio/65ae835438f662e9dd21247c_matthieu-solo-hd.png?auto=format,compress" alt="not showing" />
@@ -20,7 +26,7 @@ const HeroMain = () => {
                </div>
 
                {/* this is second the outer div for the locomotive images  */}
-               <div className='bo w-[45%] float- p-[2px] top-[3%]   h-[27%] relative overflow-hidden skew-y-[8deg] '>
+               <div className='bo w-[45%] float- p-[2px] top-[3%]   h-[27%] xs:h-[24%] relative overflow-hidden skew-y-[8deg] '>
                {/* this is the second inner div that contains the images */}
 
                               <div className='w-full border-[1px] border-black/50 overflow-hidden h-full'>
@@ -33,13 +39,13 @@ const HeroMain = () => {
                </div>
 
                {/* this is the intro paragraph */}
-               <div className='w-full h-[50%]  flex items-start justify-center relative -top-[5px]'>
-                <div className='f2 text-[23.5px] tracking-tight w-[74%] opacity-90 leading-[25px]'>
+               <div className='w-full h-[50%]  flex items-start justify-center relative -top-[5px] xs:-top-[5px]'>
+                <div className='f2 text-[23.5px] xs:text-[24.5px] tracking-tight w-[74%] opacity-90 leading-[25px] xs:leading-[25.5px]'>
                 <p>We are NikoChan and arima.</p>
                 <p>two passionate guys born in the early 20's</p>
                 <p>We enjoy playing with the codes of digital</p>
                 <p>and branding, so we founded our studio in 2024</p>
-                <p>to offer customized approach to our clients</p>
+                <p>to offer a customized approach to our clients</p>
                 </div>
                </div>
 

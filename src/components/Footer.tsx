@@ -1,8 +1,12 @@
 import React from 'react'
 
 const Footer = () => {
+
+  // the responsive design of the footer is complete for the sligthly bigger screen sizes 
+  // done for the smallest screen size. 
+
   return (
-    <div className='w-full h-[86.5vh] bg-[#FFFFF1] relative pt-[4.8rem] overflow-hidden'>
+    <div className='w-full h-[75vh] zs:h-[86.5vh] xs:h-[70vh] bg-[#FFFFF1] relative pt-[4.8rem] overflow-hidden'>
                <div className='w-full h-[30%] flex justify-center leading-none -mb-5 '>
                               <img className='w-[95%] h-[95%] object-contain' src="https://localstudio.fr/local.svg" alt="not showing" />
                </div>
@@ -15,7 +19,7 @@ const Footer = () => {
 
 
                                              <div className='absolute z-10 w-full h-full '>
-                                                                           <img className=' scale-[135%] object-contain' src="https://images.prismic.io/localstudio/65aa8e697a5e8b1120d5b3ff_bike.png" alt="not showing" />
+                                                                           <img className=' scale-[138%] zs:scale-[135%] object-contain' src="https://images.prismic.io/localstudio/65aa8e697a5e8b1120d5b3ff_bike.png" alt="not showing" />
                                              </div>
 
 

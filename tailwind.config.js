@@ -7,7 +7,11 @@ export default {
   theme: {
     screens: {
 
+      "zs":"370px",
+
       "xs":"385px",
+
+      "ss":"412px",
 
       'sm': '640px',
       // => @media (min-width: 640px) { ... }

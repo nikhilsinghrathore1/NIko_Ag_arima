@@ -1,29 +1,35 @@
 import React from 'react'
 
 const SecondPage = () => {
+
+
+// the responsive design for the second page is done for the slight bigger screen size
+// done for the smallest screen size 
+// s20 ultra done 
   return (
-    <div className='w-full h-[80vh] pt-5 xs:pt-2'>
+    <div className='w-full h-[77vh] zs:h-[80vh] xs:h-[66vh] zs:pt-5 pt-8 ss:-pt-5 xs:pt-2'>
 
 
                {/* the main text of the second page */}
-               <div className='text-[4.79rem] text-center tracking-tight leading-[3.6rem] xs:text-[5rem] xs:leading-[3.7rem] f1 uppercase'>
+               <div className='text-[4.6rem] zs:text-[4.79rem] text-center tracking-tight leading-[3.4rem] zs:leading-[3.6rem] xs:text-[5.03rem] ss:text-[5.3rem] xs:leading-[3.7rem] ss:leading-[3.9rem] f1 uppercase'>
                               <h1>the power of</h1>
                               <h1>"homemade"</h1>
-                              <h1>for brands</h1>
+                              <h1>for brands.</h1>
                </div>
 
 
                {/* outer div for the image    **** putting the overflow hidden on the outer div for maybe fun purposes ************* */}
-               <div className='relative w-[96%] h-[40%] box2 mx-auto overflow-hidden -skew-y-[4deg]  z-40 p-[3px] '>
+               
+               <div className='relative w-[96%] h-[42%] zs:h-[40%] xs:h-[42%] box2  mx-auto overflow-hidden -skew-y-[4deg]  z-40 p-[3px] '>
                               {/* inner div for the image */}
-                              <div className='w-full h-full border-[1px]   border-black '>
+                              <div className='w-full h-full border-[1px]   border-black/30 '>
                                              <img className='w-full h-full object-cover object-top scale-125' src="https://images.prismic.io/localstudio/65ae83ed38f662e9dd212489_fusion.png?auto=format,compress" alt="not showing" />
                               </div>
                </div>
 
                {/* this is the text area */}
 
-               <div className='f2 w-full text-[23.5px] z-[200] tracking-tight text-center -mt-6 relative   opacity-85 leading-[25.5px]'>
+               <div className='f2 w-full text-[22.5px] zs:text-[23.5px] xs:text-[24.6px] ss:text-[25px] z-[200] tracking-tight text-center -mt-6 xs:-mt-9 relative  opacity-85 xs:opacity-100 leading-[24px] zs:leading-[25.5px] xs:leading-[26.5px] ss:leading-[27px]'>
                               <p>We design customs stories</p>
                               <p>and experiences that</p>
                               <p>are beautiful and intelligent.</p>

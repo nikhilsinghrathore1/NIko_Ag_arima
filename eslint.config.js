@@ -26,3 +26,7 @@ export default tseslint.config(
     },
   },
 )
+
+
+
+// modularisation and compilable functional independance plays vital role to build an software with effective modular design fd is the function which is atomic in nature so that it performs only single task of software without or with least interation other module it is considered a sign of growth in modularity easier to use and refactor  easy to understand saves time while developing and deploying the independance of a module can be measured using cohesion and coupling where we want high cohesion and low coupling between the module ?? Cohesion is a measure of functional strength of a module in which all element directed towards performing a single task are contained in the component it can be defined as a internal glue which keeps the module together a cohesive module perfoem a single task ?? coupling it is the measure of degree of interdependance or interaction between two module a good software will have low coupling , comunicational cohesion , temporal cohesion , logical cohesion , co-incidental cohesion 

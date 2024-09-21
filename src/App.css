@@ -152,3 +152,21 @@
 
 }
 
+@media screen and (min-width: 430px) {
+
+
+  .box4::before{
+    position: absolute;
+    content: "";
+    width: 102%;
+    left: -22px;
+    height: 85%;
+    background-color: #ffff;
+    top: -219px;
+    z-index: 210;
+    /* border-bottom: 1px solid black; */
+    transform: rotate(-9deg);
+  }
+
+}
+

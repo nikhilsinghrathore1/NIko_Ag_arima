@@ -4,11 +4,11 @@
 }
 @font-face {
   font-family: font2;
-  src: url("../public/timesnow-semilight-7d950ea8.ttf");
+  src: url("../timesnow-semilight-7d950ea8.ttf");
 }
 @font-face {
   font-family: font3;
-  src: url("../public/Fontspring-DEMO-rocgroteskcond-extrabold.otf");
+  src: url("../Fontspring-DEMO-rocgroteskcond-extrabold.otf");
 }
 
 .f1{
@@ -197,6 +197,19 @@
     z-index: 110;
     border-bottom: 1px solid black;
     transform: rotate(5deg);
+  }
+
+  .box4::before{
+    position: absolute;
+    content: "";
+    width: 102%;
+    left: -22px;
+    height: 85%;
+    background-color: #ffffff;
+    top: -213px;
+    z-index: 210;
+    /* border-bottom: 1px solid black; */
+    transform: rotate(-9deg);
   }
   
 }

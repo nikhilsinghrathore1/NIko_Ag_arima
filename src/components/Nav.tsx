@@ -29,22 +29,13 @@ const Nav = () => {
 
 
 
-
-
-
-
-
-
-
-
-
                {/* this is the responsive code for the tablet view */}
 
                <div className='w-[70%]  flex justify-between '>
 
           {["the studio" , "playground" , "get in touch"].map(e=>(
 
-        <div className='hidden md:flex  md:px-1 md:h-8 items-center  justify-center border-[2px] text-[1.1rem] rounded-[2px] border-black uppercase f3 '>{e}</div>
+        <div className='hidden md:flex  md:px-1 md:h-7 items-center  justify-center border-[2px] text-[0.9rem] rounded-[2px] border-black uppercase f3 '>{e}</div>
           ))}
 
 

@@ -9,17 +9,19 @@ const ThirdPage = () => {
   // iphone 12pro max 
   
   return (
-    <div className='w-full h-[90vh] zs:h-[110vh] xs:h-[93vh] pt-12 overflow-hidden'>
+    <div className='w-full h-[90vh] zs:h-[110vh] overflow-hidden md:overflow-visible md:xs:h-[93vh] pt-12 md:pt-1 '>
 
 
       {/* this is the top heading text  */}
 
-               <div className='text-[4.6rem] zs:text-[4.79rem] xs:text-[5.1rem] ss:text-[5.3rem] zm:text-[5.5rem] px-[6px] relative skew-x-0 z-[114] tracking-tight leading-[3.5rem] zs:leading-[3.6rem] xs:leading-[3.8rem] ss:leading-[3.9rem] zm:leading-[4.1rem] f1 uppercase'>
-                              <h1> the balance</h1>
-                              <h1 className='pl-16'> between</h1>
+               <div className='text-[4.6rem] md:text-[6.6rem] md:-mt-0 md:leading-[5.2rem]  zs:text-[4.79rem] xs:text-[5.1rem] md:z-[114]  ss:text-[5.3rem] zm:text-[5.5rem] px-[6px] relative skew-x-0 z-[114] tracking-tight leading-[3.5rem] zs:leading-[3.6rem] xs:leading-[3.8rem] ss:leading-[3.9rem] zm:leading-[4.1rem] f1 uppercase'>
+                              <h1 className='md:pl-[38%]'> the balance</h1>
+                              <h1 className='pl-16 md:pl-[28%]'> between</h1>
                </div>
+
+               {/* this is the image container section */}
                
-               <div className=' w-[96%] px-[3px] -mt-14 zs:-mt-12 xs:-mt-[3rem] ss:-mt-[3.3rem] zm:-mt-[3.5rem] box3 h-[37%] top-[5px] bg-zinc-100  relative   mx-auto '>
+               <div className=' w-[96%] px-[3px] -mt-14 zs:-mt-12 md:-mt-20 xs:-mt-[3rem] ss:-mt-[3.3rem] zm:-mt-[3.5rem] box3 h-[37%] top-[5px] bg-zinc-100   relative   mx-auto '>
                         <div className='w-full h-full overflow-hidden skew  relative   border-x-[1px] border-b-[1px] border-black '>
                                 <img className='w-full h-full object-cover translate-y-[40px]  object-top scale-125 relative z-[117]' src="https://images.prismic.io/localstudio/65ae849838f662e9dd2124a4_full.png?auto=format,compress" alt="not showing" />
                         </div>
@@ -28,10 +30,12 @@ const ThirdPage = () => {
 
                {/* this is the last heading text */}
 
-               <div className='text-[4.5rem] zs:text-[4.79rem] xs:text-[5rem] zm:text-[5.5rem] px-[6px] relative skew-x-0 z-[114] tracking-tight leading-[3.4rem] zs:leading-[3.6rem] xs:leading-[3.8rem] zm:leading-[4.1rem] f1 uppercase'>
+               <div className='text-[4.5rem] zs:text-[4.79rem] md:text-[6.6rem] md:mt-10 md:leading-[5.2rem] xs:text-[5rem] zm:text-[5.5rem] px-[6px] relative skew-x-0 z-[114] tracking-tight leading-[3.4rem] zs:leading-[3.6rem] xs:leading-[3.8rem] zm:leading-[4.1rem] f1 uppercase'>
                               <h1 className='pl-5 xs:pl-3'>creativity &</h1>
-                              <h1 className='pl-16'>common</h1>
-                              <h1>sense.</h1>
+                              <h1 className='pl-16 md:hidden'>common</h1>
+                              <h1 className='md:hidden'>sense.</h1>
+                              <h1 className='hidden md:block pl-[20%]'>common sense.</h1>
+
                </div>
 
                {/* this is the paragraph  */}

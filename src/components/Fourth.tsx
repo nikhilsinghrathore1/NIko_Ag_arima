@@ -1,17 +1,13 @@
 import React from 'react'
 
 const Fourth = () => {
-
-
-
-// responsive design for all the mobile devices are done 
-// starting with tablet design some what done 
+// completed all the responsive design till tablet now starting with desktop view
   return (
     <div className='w-full h-[50vh] zs:h-[65vh]  xs:h-[50vh] overflow-hidden -mt-2 xs:mt-0 '>
       {/* this is the div that contains the inner images */}
                <div className='relative flex items-start md:items-center  justify-center w-full box4 z-20 h-[65%] b pt-8  xs:pt-10     '>
 
-               <div className='w-[85%]  ml-2 xs:ml-3 h-[70%]  z-[10] -skew-y-[9deg] border-x-[1px] border-t-[1px] border-b-[1px] border-b-black/10   border-black/30   absolute -left-1 md:left-1/2 md:-translate-x-1/2  '>
+               <div className='w-[85%]  ml-2 xs:ml-3 h-[70%] z-[10] -skew-y-[9deg] border-x-[1px] border-t-[1px] border-b-[1px] border-b-black/30   border-black/30   absolute -left-1 md:left-1/2 md:-translate-x-1/2  '>
                               <img className='w-full  -translate-y-52 scale-110 ' src="https://images.prismic.io/localstudio/65ae849838f662e9dd2124a4_full.png?auto=format,com" alt="not showing" />
                </div>
 

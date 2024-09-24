@@ -1,10 +1,6 @@
-import React from 'react'
-
 const Nav = () => {
-
-// done for all mobile devices
-
-// ipad mini done
+// done for all the screen sizes till the tablet view 
+// starting with the desktop view 
 
   return (
     <div className='w-full h-[8%] zs:h-[10%] xs:h-[7%] ss:h-[8%] flex items-center  justify-between z-[500] fixed pl-[14px] pr-[15.5px] py-1'>
@@ -31,11 +27,11 @@ const Nav = () => {
 
                {/* this is the responsive code for the tablet view */}
 
-               <div className='w-[70%]  flex justify-between '>
+               <div className='w-[70%] xl:w-[66%]   flex justify-between g '>
 
-          {["the studio" , "playground" , "get in touch"].map(e=>(
+          {["the studio" , "playground" , "get in touch"].map((e,i)=>(
 
-        <div className='hidden md:flex  md:px-1 md:h-7 items-center  justify-center border-[2px] text-[0.9rem] rounded-[2px] border-black uppercase f3 '>{e}</div>
+          <div className={`hidden md:flex  md:px-1 ${i===1 ? "-ml-28":"ml-0"} xl:px-2 md:h-7 xl:h-[26px]  items-center justify-center border-[2px] xl:border-[1px] text-[0.9rem] rounded-[2px] border-black uppercase f3`} >{e}</div>
           ))}
 
 

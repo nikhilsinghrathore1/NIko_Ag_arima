@@ -19,7 +19,7 @@ const ThirdPage = () => {
                {/* this is the image container section */}
                
                <div className=' w-[96%] px-[3px] -mt-14 zs:-mt-12 md:-mt-20 xs:-mt-[3rem] ss:-mt-[3.3rem] zm:-mt-[3.5rem] box3 h-[57%] skew-y-3 skew-x-3 top-[5px] bg-zinc-100   relative   mx-auto '>
-                        <div className='w-full h-full overflow-hidden skew  relative   border-x-[1px] border-b-[1px] border-black '>
+                        <div className='w-full h-full overflow-hidden skew  relative   border-x-[1px] border-b-[1px] border-black/30 '>
                                 <img className='w-full h-full object-cover translate-y-[40px]  object-top scale-125 relative z-[117]' src="https://images.prismic.io/localstudio/65ae849838f662e9dd2124a4_full.png?auto=format,compress" alt="not showing" />
                         </div>
                </div>

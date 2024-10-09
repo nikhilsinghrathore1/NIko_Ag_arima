@@ -242,5 +242,41 @@
 }
 
 
+.box2::before{
+  position: absolute;
+  content: "";
+  width: 605%;
+  left: -500px;
+  height: 100%;
+  background-color: #ffffff;
+  bottom: -530px;
+  z-index: 100;
+  border-top: 1px solid black;
+  transform: rotate(7deg);
+}
+
+
+
+}
+@media screen and (min-width: 1520px) {
+
+
+  
+
+.box2::before{
+  position: absolute;
+  content: "";
+  width: 105%;
+  left: -48px;
+  height: 100%;
+  background-color: #ffffff;
+  bottom: -450px;
+  z-index: 100;
+  border-top: 1px solid black;
+  transform: rotate(9deg);
+}
+
+
+
 }
 

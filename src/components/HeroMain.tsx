@@ -4,10 +4,11 @@ const HeroMain = () => {
 
 
 // done for all mobile devices 
-// ipad mini screen size done somewhat complete  
+// ipad mini screen size done somewhat complete 
+// done for the desktop view  
 
   return (
-    <div className=' w-full relative z-[5000000]  xl:h-[180vh]  h-[87.5vh] zs:h-[108vh] xs:h-[86.5vh]  overflow-hidden pt-[110px] md:pt-[80px] md:h-[53vh] zs:pt-[117px] ss:pt-[128px]  xl:pt-[150px] px-[5px]'>
+    <div className=' w-full relative   xl:h-[155vh]  h-[87.5vh] zs:h-[108vh] xs:h-[86.5vh]  overflow-hidden pt-[110px] md:pt-[80px] md:h-[53vh] zs:pt-[117px] ss:pt-[128px]  xl:pt-[150px] px-[5px]'>
                {/* container for the main big text */}
 
                <div className='text-[4.6rem] md:w-full  zs:text-[4.79rem] xs:text-[5rem] xl:-tracking-[3px]  ss:text-[5.3rem] md:text-[6.4rem] xl:text-[12.4rem] xl:leading-[10rem] zm:text-[5.5rem] px-[3px] tracking-tight leading-[3.5rem] zs:leading-[3.6rem] xs:leading-[3.8rem] ss:leading-[3.93rem] zm:leading-[4.15rem] md:leading-[5rem] f1 uppercase'>
@@ -27,7 +28,7 @@ const HeroMain = () => {
                               <img className='w-full h-full object-cover scale-125 -rotate-[15deg] object-top' src="https://images.prismic.io/localstudio/65ae835438f662e9dd21247c_matthieu-solo-hd.png?auto=format,compress" alt="not showing" />
                </div>
                </div>
-
+``
 
                {/* this is second the outer div for the locomotive images  */}
 
@@ -59,7 +60,7 @@ const HeroMain = () => {
                {/* this is the intro paragraph for the tablet screen size  */}
 
                <div className='hidden top-[-160px] xl:top-[-130px]  left-[120px] xl:left-[780px]   w-full xl:w-fit h-[50%] xl:h-fit  md:flex    z-[50000000]      items-start justify-center relative '>
-                <div className='f2 text-[12px]  tracking-tight  xl:text-[1.5rem] '>
+                <div className='f2 text-[12px]  tracking-tight  xl:text-[1.4rem] '>
                 <p className='leading-[13px] xl:leading-[1.62rem]'>We are NikoChan and arima.</p>
                 <p className='leading-[13px] xl:leading-[1.62rem]'>two passionate guys born in the early 20's</p>
                 <p className='leading-[13px] xl:leading-[1.62rem]'>We enjoy playing with the codes of digital</p>

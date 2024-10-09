@@ -6,11 +6,11 @@ const SecondPage = () => {
 // ipad mini done won't be doing anymore than this in the tablet view after this will straight be going to build the desktop view that's all no more shitting around cause i also have to make the website for the hackathon   ..  ..  ..  ..  ..  ..
   return (
 
-    <div className='w-full h-[77vh] md:h-[49vh] overflow-hidden   zs:h-[80vh] xs:h-[66vh] zs:pt-5 pt-8 ss:-pt-5 xs:pt-2'>
+    <div className='w-full relative h-[77vh] xl:h-[150vh] -mt-3 md:h-[49vh] overflow-hidden zs:h-[80vh] xs:h-[66vh] zs:pt-5 pt-8 ss:-pt-5 xs:pt-2'>
 
 
                {/* the main text of the second page */}
-               <div className='text-[4.6rem] zs:text-[4.79rem] md:text-[6.4rem] md:leading-[5rem] text-center tracking-tight leading-[3.4rem] zs:leading-[3.6rem] xs:text-[5.03rem] ss:text-[5.3rem] zm:text-[5.5rem] xs:leading-[3.7rem] ss:leading-[3.9rem] zm:leading-[4.1rem] f1 uppercase'>
+               <div className='text-[4.6rem] zs:text-[4.79rem]  xl:text-[13rem] z-[50000000] xl:leading-[10rem] md:text-[6.4rem] md:leading-[5rem] text-center tracking-tight leading-[3.4rem] zs:leading-[3.6rem] xs:text-[5.03rem] ss:text-[5.3rem] zm:text-[5.5rem] xs:leading-[3.7rem] ss:leading-[3.9rem] zm:leading-[4.1rem] f1 uppercase'>
                               <h1 className='md:pl-[35%]'>the power of</h1>
                               <h1 className='md:pl-[13%]'>"homemade"</h1>
                               <h1>for brands.</h1>
@@ -19,9 +19,9 @@ const SecondPage = () => {
 
                {/* outer div for the image    **** putting the overflow hidden on the outer div for maybe fun purposes **** this is for the mobile view */}
                
-               <div className='md:hidden relative w-[96%] h-[42%] zs:h-[40%] xs:h-[42%] box2  mx-auto overflow-hidden -skew-y-[4deg]  z-40 p-[3px] '>
+               <div className='md:hidden relative w-[96%] h-[42%] xl:h-[90%]   zs:h-[40%] xs:h-[42%]  box2  mx-auto overflow-hidden -skew-y-[4deg]  z-40 p-[3px] '>
                               {/* inner div for the image */}
-                              <div className='w-full h-full border-[1px]   border-black/30 '>
+                              <div className='w-full h-full border-[1px]    border-black/30 '>
                                              <img className='w-full h-full object-cover object-top scale-125' src="https://images.prismic.io/localstudio/65ae83ed38f662e9dd212489_fusion.png?auto=format,compress" alt="not showing" />
                               </div>
                </div>
@@ -46,20 +46,20 @@ const SecondPage = () => {
 
            {/* this is the tablet view of the text */}
 
-               <div className='hidden md:block f2 text-[12px] left-4 top-20 z-[200] tracking-tight text-center relative  opacity-85 xs:opacity-100 '>
-                              <p className='leading-[13.5px]'>We design customs stories</p>
-                              <p className='leading-[13.5px]'>and experiences that</p>
-                              <p className='leading-[13.5px]'>are beautiful and intelligent.</p>
-                              <p className='leading-[13.5px]'>Our perspective is unique.</p>
-                              <p className='leading-[13.5px]'>It relies on the subtle balance</p>
-                              <p className='leading-[13.5px]'>between asthetics and pragmatism.</p>
+               <div className='hidden md:block f2 text-[12px] left-4 top-20 xl:text-[1.55rem] xl:top-[55%] xl:left-10 xl:tracking-tight xl:opacity-80 xl:absolute z-[200] tracking-tight text-center relative  opacity-85 xs:opacity-100 '>
+                              <p className='leading-[13.5px] xl:leading-[1.72rem]'>We design custom stories</p>
+                              <p className='leading-[13.5px] xl:leading-[1.72rem]'>and experiences that</p>
+                              <p className='leading-[13.5px] xl:leading-[1.72rem]'>are beautiful and intelligent.</p>
+                              <p className='leading-[13.5px] xl:leading-[1.72rem]'>Our perspective is unique.</p>
+                              <p className='leading-[13.5px] xl:leading-[1.72rem]'>It relies on the subtle balance</p>
+                              <p className='leading-[13.5px] xl:leading-[1.72rem]'>between asthetics and pragmatism.</p>
                </div>
 
           {/* this is the tablet view of the images */}
 
-               <div className=' relative  h-[40vh] w-[73%]  box2 left-5  mx-auto overflow-hidden -skew-y-[4deg]  z-40 p-[3px] '>
+               <div className=' relative  h-[40vh] w-[73%]  box2 left-48 xl:h-[75vh]  -red-700  mx-auto overflow-hidden -skew-y-[4deg]  z-40 p-[3px] '>
                               {/* inner div for the image */}
-                              <div className='w-full h-full border-[1px]   border-black/30 '>
+                              <div className='w-full h-full border-[1px]   border-black/30 xl:border-black xl:border-[2px] '>
                                              <img className='w-full h-full object-cover object-top scale-125' src="https://images.prismic.io/localstudio/65ae83ed38f662e9dd212489_fusion.png?auto=format,compress" alt="not showing" />
                               </div>
                </div>

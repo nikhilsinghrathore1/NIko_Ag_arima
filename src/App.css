@@ -261,7 +261,31 @@
 @media screen and (min-width: 1520px) {
 
 
-  
+ 
+  .box3::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: 9.5px;
+    height: 30%;
+    background-color: #ffffff;
+    top: -50px;
+    z-index: 111;
+    border-bottom: 1px solid black;
+    transform: rotate(5deg);
+  } 
+  .box3::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: 0px;
+    height: 30%;
+    background-color: #ffffff;
+    top: -50px;
+    z-index: 110;
+    transform: rotate(5deg);
+  } 
+
 
 .box2::before{
   position: absolute;
@@ -276,6 +300,19 @@
   transform: rotate(9deg);
 }
 
+
+.box4::before{
+  position: absolute;
+  content: "";
+  width: 102%;
+  left: -22px;
+  height: 85%;
+  background-color: #ffffff;
+  top: -243px;
+  z-index: 210;
+  /* border-bottom: 1px solid black; */
+  transform: rotate(-9deg);
+}
 
 
 }

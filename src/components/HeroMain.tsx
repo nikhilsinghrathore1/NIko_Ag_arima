@@ -1,11 +1,5 @@
-import React from 'react'
 
 const HeroMain = () => {
-
-
-// done for all mobile devices 
-// ipad mini screen size done somewhat complete 
-// done for the desktop view  
 
   return (
     <div className=' w-full relative   xl:h-[155vh]  h-[87.5vh] zs:h-[108vh] xs:h-[86.5vh]  overflow-hidden pt-[110px] md:pt-[80px] md:h-[53vh] zs:pt-[117px] ss:pt-[128px]  xl:pt-[150px] px-[5px]'>
